@@ -1,29 +1,29 @@
 ```ruby
-eval$s=%w(s=%(eval$s=%w(#{$s})*""     );func=->n{s.slice!(0,n)};fish="
-#33H5#32@#22A26#22@#17                          R36#17@#13A44#13@#10D5
-0#10@#8A14#12H28#                                    8@#6A12#16R30#6@#
-5A10#15D35#5@                                            #3A10#9H45#3@
-#2A10#11R4                                                  5#2@#2A9#1
-5D42#2@#              A10#20H38#@#                            A11#24R3
-3#@#A1            1#29D28#@#A13#33                              H22#@#
-A15#3          5R18#@#2A17#36D                                   13#2@
-#3A          20#35H10#                                             2@#
-4A          24#31R8#3@#                                             5A
-32         #22D6#5@#6A41#9                                          H8
-          #6@#8A54#8@#11R49#10                                      
-           @#13A44#13@#17D36#17@#22                                 
-           A26#22@#34H2#34";output="";i=                            
-             0;len=fish.size;i=0;len.times{c=f                      
-               ish[i];if(c!='@'&&c!='#');j=i+1;spa                  
-ce                 _len="";(fish.size-j).times{|k|if(!(             fi
-sh[                    j]=~/[0-9]/));break;end;space_len<<          fi
-sh[j                        ];j+=1;};count=space_len.to_i;p        rin
-t(32.                                chr*count);i=j;elsif(c      =="@"
-);prin                                         t("\n");i        +=1;el
-se;j=i+1                                                      ;l="";(f
-ish.size-j)                                                 .times{|k|
-if(!(fish[j]=                                            ~/[0-9]/));br
-eak;end;l<<fish[j                                    ];j+=1;};let_len=
-l.to_i;print(func[let_                          len]);i=j;end;};puts()
-;#This_program_is_a_Ruby_quine.___  ___##arad166##Kento_Harada####)*""
+eval$s=%w(s=%(eval$s=%w(#{$s})*"");f=->n{s.slice!(0,n)};fish="#70@#23H
+23#24@#18A34#18@#14R12#                       8A22#14@#11D12#11A25#11@
+#9H12#12A28#9@#7R1                                  2#8A36#7@#5D13#6A4
+1#5@#4H13#9A40            #4@#3R14                      #11A39#3@#2D14
+#15A37#2@#2            H15#18A33#2                         @#R16#22A30
+#@#D17#24            A27#@#H19#26                            A23#@#2R2
+0#27A19            #2@#2D22                                    #27A17#
+2@#3H             24#25A                                         15#3@
+#4R2             9#20A13#4                                        @#5D
+33#              14A13#5@#6H                                       57#
+7@              #8A54#8@#11R48#                                     11
+@#               13A44#13@#17D36#17                                 @#
+                22A26#22@#70";output="                              
+                 ";i=0;len=fish.size;i=0;                           
+                   len.times{c=fish[i];if(c!=                       
+'@                    '&&c!='#');j=i+1;len="";(fi                   sh
+.s                      ize-j).times{|k|if(!(fish[j                 ]=
+~/[                        0-9]/));break;end;len<<fi               sh[
+j];j                             +=1;};count=len.to_i             ;pri
+nt(32                                 .chr*count);i=             j;els
+if(c==                                                         "@");pr
+int("\n"                                                      );i+=1;e
+lse;j=i+1;l                                                ="";(fish.s
+ize-j).times{                                            |k|if(!(fish[
+j]=~/[0-9]/));bre                                    ak;end;l<<fish[j]
+;j+=1;};len=l.to_i;pri                          nt(f[len]);i=j;end;};p
+uts();#This_program_is_a_Ruby_quine.___##arad166##Kento_Harada####)*""
 ```
